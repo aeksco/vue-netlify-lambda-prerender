@@ -9,18 +9,16 @@
     <pre v-if="loading">LOADING...</pre>
     <pre v-else>{{msg}}</pre>
 
+    <hr>
+
+    An example app by <a href="https://github.com/aeksco">@aeksco</a>
+
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'home',
-  components: {
-    HelloWorld
-  },
   mounted () {
     this.$store.dispatch('fetchMessage')
   },

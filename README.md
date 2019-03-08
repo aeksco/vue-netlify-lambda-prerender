@@ -2,8 +2,11 @@
 
 This is a basic starter project for a prerendered [Vue](https://vuejs.org/) frontend with a [Netlify lambda function](https://www.netlify.com/docs/functions/) backend.
 
+##### [You can view the deployed app here](https://vue-netlify-lambda-prerender.netlify.com/)
+
 The Vue app is prerendered for improved SEO - you can learn more about server-side rendering and prerendering with Vue [here](https://ssr.vuejs.org/#ssr-vs-prerendering). Includes [vue-router](https://router.vuejs.org/), [vuex](https://vuex.vuejs.org), [axios](https://github.com/axios/axios), the [vue-cli-plugin-netlify-lambda](https://github.com/netlify/vue-cli-plugin-netlify-lambda), and the [prerender-spa-plugin](https://github.com/chrisvfritz/prerender-spa-plugin).
 
+**NOTE:** this project can only be deployed via Netlify with [continuous deployment](https://www.netlify.com/docs/continuous-deployment/) enabled.
 
 ## Project setup
 ```
