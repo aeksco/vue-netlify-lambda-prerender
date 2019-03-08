@@ -35,3 +35,23 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Prerendering configuration
+
+**NOTE:** for prerendering to work correctly, routes for those pages must be added to `vue.config.js`:
+
+```js
+module.exports = {
+  configureWebpack: {
+    plugins: [
+      new PrerenderSPAPlugin({
+        staticDir: path.join(__dirname, 'dist'),
+        routes: [
+          '/',
+          '/about',
+        ],
+      }),
+    ],
+  },
+};
+```
