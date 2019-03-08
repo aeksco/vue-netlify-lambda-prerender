@@ -11,7 +11,9 @@
 
     <hr>
 
-    An example app by <a href="https://github.com/aeksco">@aeksco</a>
+    An example app by <a href="https://github.com/aeksco" target="_blank">@aeksco</a>
+    <br>
+    Source code available on <a href="https://github.com/aeksco/vue-netlify-lambda-prerender" target="_blank">GitHub</a>
 
   </div>
 </template>
